@@ -1,0 +1,1 @@
+{"documents":[{"id":553,"pageTitle":"intro","sectionTitle":"intro","sectionRoute":"/main/intro","type":"docs"}],"index":{"version":"2.3.9","fields":["title","content","tags"],"fieldVectors":[["title/553",[0,0.288]],["content/553",[]],["tags/553",[]]],"invertedIndex":[["intro",{"_index":0,"title":{"553":{}},"content":{},"tags":{}}]],"pipeline":["stemmer-ru","stemmer"]}}

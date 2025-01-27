@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>IconButtonComponent</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            edna ChatCenter SDK
+                    </a>
+            </div>
+            <div class="library-version">
+5.1            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":chatcenterui:dokkaHtml/release">edna ChatCenter SDK</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="edna ChatCenter SDK::edna.chatcenter.ui.visual.uiStyle.settings.components.iconButton/IconButtonComponent///PointingToDeclaration//1142877218">
+  <div class="breadcrumbs"><a href="../../../index.html">edna ChatCenter SDK</a><span class="delimiter">/</span><a href="../index.html">edna.chatcenter.ui.visual.uiStyle.settings.components.iconButton</a><span class="delimiter">/</span><span class="current">IconButtonComponent</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Icon</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Component</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">IconButtonComponent</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><span data-unresolved-link="android.content/Context///PointingToDeclaration/">Context</span><span class="token punctuation">, </span></span><span class="parameter ">colors<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.theme/-chat-colors/index.html">ChatColors</a><span class="token punctuation">, </span></span><span class="parameter ">images<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.theme/-chat-images/index.html">ChatImages</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">Компонент для IconButton Предоставляет доступ к более низкому уровню персонализации, а также общие настройки для группы параметров.</p><h4 class="">Parameters</h4><div class="table"><div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span><span>context</span></span></u></div></span></div><div><div class="title"><p class="paragraph">applicationContext</p></div></div></div></div><div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span><span>colors</span></span></u></div></span></div><div><div class="title"><p class="paragraph">цвета элементов, используемые в приложении</p></div></div></div></div><div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span><span>images</span></span></u></div></span></div><div><div class="title"><p class="paragraph">изображения, используемые в приложении</p></div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1945752404%2FConstructors%2F1142877218" anchor-label="IconButtonComponent" id="1945752404%2FConstructors%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-icon-button-component.html"><span>Icon</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Component</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1945752404%2FConstructors%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><span data-unresolved-link="android.content/Context///PointingToDeclaration/">Context</span><span class="token punctuation">, </span></span><span class="parameter ">colors<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.theme/-chat-colors/index.html">ChatColors</a><span class="token punctuation">, </span></span><span class="parameter ">images<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.theme/-chat-images/index.html">ChatImages</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="2053748073%2FProperties%2F1142877218" anchor-label="attachColor" id="2053748073%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="attach-color.html"><span>attach</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2053748073%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="attach-color.html">attachColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки присоединения файла</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-305052715%2FProperties%2F1142877218" anchor-label="attachIcon" id="-305052715%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="attach-icon.html"><span>attach</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-305052715%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="attach-icon.html">attachIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка для кнопки &quot;прикрепить вложение&quot;</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="845600077%2FProperties%2F1142877218" anchor-label="backBtnImage" id="845600077%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="back-btn-image.html"><span>back</span><wbr></wbr><span>Btn</span><wbr></wbr><span><span>Image</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="845600077%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="back-btn-image.html">backBtnImage</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка для кнопки &quot;назад&quot;</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1939206627%2FProperties%2F1142877218" anchor-label="backButtonColor" id="-1939206627%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="back-button-color.html"><span>back</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1939206627%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="back-button-color.html">backButtonColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет кнопки &quot;назад&quot;</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1366692530%2FProperties%2F1142877218" anchor-label="chatToolbarInverseIconTint" id="1366692530%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="chat-toolbar-inverse-icon-tint.html"><span>chat</span><wbr></wbr><span>Toolbar</span><wbr></wbr><span>Inverse</span><wbr></wbr><span>Icon</span><wbr></wbr><span><span>Tint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1366692530%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="chat-toolbar-inverse-icon-tint.html">chatToolbarInverseIconTint</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет инвертированных иконок в тулбаре при выделении сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="940746757%2FProperties%2F1142877218" anchor-label="chatToolbarInverseIconTintColor" id="940746757%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="chat-toolbar-inverse-icon-tint-color.html"><span>chat</span><wbr></wbr><span>Toolbar</span><wbr></wbr><span>Inverse</span><wbr></wbr><span>Icon</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="940746757%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="chat-toolbar-inverse-icon-tint-color.html">chatToolbarInverseIconTintColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет кнопки &quot;назад&quot;</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="231396243%2FProperties%2F1142877218" anchor-label="clearSearchBtnIcon" id="231396243%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="clear-search-btn-icon.html"><span>clear</span><wbr></wbr><span>Search</span><wbr></wbr><span>Btn</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="231396243%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="clear-search-btn-icon.html">clearSearchBtnIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка очистки поля ввода (крестик)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="759531045%2FProperties%2F1142877218" anchor-label="copyIcon" id="759531045%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="copy-icon.html"><span>copy</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="759531045%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="copy-icon.html">copyIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка копирования выделенного сообщения в тулбаре</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1723064197%2FProperties%2F1142877218" anchor-label="menuIcon" id="-1723064197%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="menu-icon.html"><span>menu</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1723064197%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="menu-icon.html">menuIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Кнопка меню (три точки)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="69159320%2FProperties%2F1142877218" anchor-label="pauseIcon" id="69159320%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="pause-icon.html"><span>pause</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="69159320%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="pause-icon.html">pauseIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка приостановки воспроизведения аудио/голосового файла</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1090152762%2FProperties%2F1142877218" anchor-label="playIcon" id="-1090152762%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="play-icon.html"><span>play</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1090152762%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="play-icon.html">playIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка воспроизведения аудио/голосового файла</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2092475949%2FProperties%2F1142877218" anchor-label="playPauseIncomingTintColor" id="-2092475949%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="play-pause-incoming-tint-color.html"><span>play</span><wbr></wbr><span>Pause</span><wbr></wbr><span>Incoming</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2092475949%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="play-pause-incoming-tint-color.html">playPauseIncomingTintColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки воспроизведения звукового файла во входящем сообщении</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-878558311%2FProperties%2F1142877218" anchor-label="playPauseOutgoingTintColor" id="-878558311%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="play-pause-outgoing-tint-color.html"><span>play</span><wbr></wbr><span>Pause</span><wbr></wbr><span>Outgoing</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-878558311%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="play-pause-outgoing-tint-color.html">playPauseOutgoingTintColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки воспроизведения звукового файла в исходящем сообщении</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2062900803%2FProperties%2F1142877218" anchor-label="quoteClearBtnIcon" id="2062900803%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="quote-clear-btn-icon.html"><span>quote</span><wbr></wbr><span>Clear</span><wbr></wbr><span>Btn</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2062900803%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="quote-clear-btn-icon.html">quoteClearBtnIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка очистки цитаты (крестик)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1049013166%2FProperties%2F1142877218" anchor-label="quoteClearIconColor" id="1049013166%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="quote-clear-icon-color.html"><span>quote</span><wbr></wbr><span>Clear</span><wbr></wbr><span>Icon</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1049013166%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="quote-clear-icon-color.html">quoteClearIconColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки очистки цитаты</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1206677796%2FProperties%2F1142877218" anchor-label="replyIcon" id="1206677796%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="reply-icon.html"><span>reply</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1206677796%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="reply-icon.html">replyIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка ответа на выделенное сообщение в тулбаре</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1214483282%2FProperties%2F1142877218" anchor-label="searchIcon" id="1214483282%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="search-icon.html"><span>search</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1214483282%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="search-icon.html">searchIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка поиска сообщений в тулбаре</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1675072357%2FProperties%2F1142877218" anchor-label="searchIconColor" id="1675072357%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="search-icon-color.html"><span>search</span><wbr></wbr><span>Icon</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1675072357%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="search-icon-color.html">searchIconColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки поиска</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="377028797%2FProperties%2F1142877218" anchor-label="searchIconsTintColor" id="377028797%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="search-icons-tint-color.html"><span>search</span><wbr></wbr><span>Icons</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="377028797%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="search-icons-tint-color.html">searchIconsTintColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки отправки сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1811379174%2FProperties%2F1142877218" anchor-label="sendBtnIcon" id="-1811379174%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="send-btn-icon.html"><span>send</span><wbr></wbr><span>Btn</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1811379174%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="send-btn-icon.html">sendBtnIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка для кнопки отправки сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-118891528%2FProperties%2F1142877218" anchor-label="sendBtnIconTintColor" id="-118891528%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="send-btn-icon-tint-color.html"><span>send</span><wbr></wbr><span>Btn</span><wbr></wbr><span>Icon</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-118891528%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="send-btn-icon-tint-color.html">sendBtnIconTintColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки отправки сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1623542569%2FProperties%2F1142877218" anchor-label="toolbarContextMenuColor" id="-1623542569%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="toolbar-context-menu-color.html"><span>toolbar</span><wbr></wbr><span>Context</span><wbr></wbr><span>Menu</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1623542569%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="toolbar-context-menu-color.html">toolbarContextMenuColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки &quot;меню&quot; в тулбаре</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="174272892%2FProperties%2F1142877218" anchor-label="voiceBtnBackgroundColor" id="174272892%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="voice-btn-background-color.html"><span>voice</span><wbr></wbr><span>Btn</span><wbr></wbr><span>Background</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="174272892%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="voice-btn-background-color.html">voiceBtnBackgroundColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Фоновый цвет кнопки записи голосового сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2143134076%2FProperties%2F1142877218" anchor-label="voiceBtnBackgroundImage" id="-2143134076%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="voice-btn-background-image.html"><span>voice</span><wbr></wbr><span>Btn</span><wbr></wbr><span>Background</span><wbr></wbr><span><span>Image</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2143134076%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="voice-btn-background-image.html">voiceBtnBackgroundImage</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Фон для кнопки записи голосового сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1239619856%2FProperties%2F1142877218" anchor-label="voiceBtnIcon" id="-1239619856%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="voice-btn-icon.html"><span>voice</span><wbr></wbr><span>Btn</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1239619856%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/DrawableRes///PointingToDeclaration/"><span class="token annotation builtin">DrawableRes</span></span></div></div><span class="token keyword">var </span><a href="voice-btn-icon.html">voiceBtnIcon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Иконка микрофона для кнопки записи голосового сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-192982558%2FProperties%2F1142877218" anchor-label="voiceBtnIconTintColor" id="-192982558%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="voice-btn-icon-tint-color.html"><span>voice</span><wbr></wbr><span>Btn</span><wbr></wbr><span>Icon</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-192982558%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span></div></div><span class="token keyword">var </span><a href="voice-btn-icon-tint-color.html">voiceBtnIconTintColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Цвет иконки микрофона для записи голосового сообщения</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>SystemMessagesConfig</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            edna ChatCenter SDK
+                    </a>
+            </div>
+            <div class="library-version">
+5.1            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":chatcenterui:dokkaHtml/release">edna ChatCenter SDK</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="edna ChatCenter SDK::edna.chatcenter.ui.visual.uiStyle.settings.configs/SystemMessagesConfig///PointingToDeclaration//1142877218">
+  <div class="breadcrumbs"><a href="../../../index.html">edna ChatCenter SDK</a><span class="delimiter">/</span><a href="../index.html">edna.chatcenter.ui.visual.uiStyle.settings.configs</a><span class="delimiter">/</span><span class="current">SystemMessagesConfig</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>System</span><wbr></wbr><span>Messages</span><wbr></wbr><span><span>Config</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">SystemMessagesConfig</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>systemMessageText<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>dateMessageText<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>approveRequest<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>denyRequest<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>requestToResolve<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>scheduleMessage<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>scheduleIcon<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-images-chat-style/index.html">ImagesChatStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>unreadMessage<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>ratingStyle<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.components.rating/-rating-style/index.html">RatingStyle</a></span></span><span class="token punctuation">)</span> : <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html">Serializable</a></div><p class="paragraph">Конфиг, описывающий применяемые к системным сообщениям стили</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1084583155%2FConstructors%2F1142877218" anchor-label="SystemMessagesConfig" id="1084583155%2FConstructors%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-system-messages-config.html"><span>System</span><wbr></wbr><span>Messages</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1084583155%2FConstructors%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">systemMessageText<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">dateMessageText<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">approveRequest<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">denyRequest<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">requestToResolve<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">scheduleMessage<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">scheduleIcon<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-images-chat-style/index.html">ImagesChatStyle</a><span class="token punctuation">, </span></span><span class="parameter ">unreadMessage<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a><span class="token punctuation">, </span></span><span class="parameter ">ratingStyle<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.components.rating/-rating-style/index.html">RatingStyle</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="227866344%2FProperties%2F1142877218" anchor-label="approveRequest" id="227866344%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="approve-request.html"><span>approve</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="227866344%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="approve-request.html">approveRequest</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Стиль для кнопки опроса, положительный результат</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="317999978%2FProperties%2F1142877218" anchor-label="dateMessageText" id="317999978%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="date-message-text.html"><span>date</span><wbr></wbr><span>Message</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="317999978%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="date-message-text.html">dateMessageText</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Стили для дат</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="618769901%2FProperties%2F1142877218" anchor-label="denyRequest" id="618769901%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="deny-request.html"><span>deny</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="618769901%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="deny-request.html">denyRequest</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Стиль для кнопки опроса, отрицательный результат</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1797547996%2FProperties%2F1142877218" anchor-label="ratingStyle" id="1797547996%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="rating-style.html"><span>rating</span><wbr></wbr><span><span>Style</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1797547996%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="rating-style.html">ratingStyle</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.components.rating/-rating-style/index.html">RatingStyle</a></div><div class="brief "><p class="paragraph">Стили для рейтинга чата</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="441725192%2FProperties%2F1142877218" anchor-label="requestToResolve" id="441725192%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="request-to-resolve.html"><span>request</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Resolve</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="441725192%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="request-to-resolve.html">requestToResolve</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Текст опроса о пройденном диалоге</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="313361594%2FProperties%2F1142877218" anchor-label="scheduleIcon" id="313361594%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="schedule-icon.html"><span>schedule</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="313361594%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="schedule-icon.html">scheduleIcon</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-images-chat-style/index.html">ImagesChatStyle</a></div><div class="brief "><p class="paragraph">Иконка расписания</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="277663360%2FProperties%2F1142877218" anchor-label="scheduleMessage" id="277663360%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="schedule-message.html"><span>schedule</span><wbr></wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="277663360%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="schedule-message.html">scheduleMessage</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Сообщение с расписанием</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1880579925%2FProperties%2F1142877218" anchor-label="systemMessageText" id="-1880579925%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="system-message-text.html"><span>system</span><wbr></wbr><span>Message</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1880579925%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="system-message-text.html">systemMessageText</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Стили для основного текста</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="267468888%2FProperties%2F1142877218" anchor-label="unreadMessage" id="267468888%2FProperties%2F1142877218" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="unread-message.html"><span>unread</span><wbr></wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="267468888%2FProperties%2F1142877218"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="unread-message.html">unreadMessage</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles.messages/-text-message-style/index.html">TextMessageStyle</a></div><div class="brief "><p class="paragraph">Уведомление о непрочитанных сообщениях</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

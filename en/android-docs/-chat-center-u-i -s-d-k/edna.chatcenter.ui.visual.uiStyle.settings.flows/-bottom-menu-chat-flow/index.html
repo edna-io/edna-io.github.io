@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>BottomMenuChatFlow</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            ChatCenterUI SDK
+                    </a>
+            </div>
+            <div class="library-version">
+5.5.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":chatcenterui:dokkaHtml/release">ChatCenterUI SDK</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="ChatCenterUI SDK::edna.chatcenter.ui.visual.uiStyle.settings.flows/BottomMenuChatFlow///PointingToDeclaration//-2054868790">
+  <div class="breadcrumbs"><a href="../../../index.html">ChatCenterUI SDK</a><span class="delimiter">/</span><a href="../index.html">edna.chatcenter.ui.visual.uiStyle.settings.flows</a><span class="delimiter">/</span><span class="current">BottomMenuChatFlow</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Bottom</span><wbr></wbr><span>Menu</span><wbr></wbr><span>Chat</span><wbr></wbr><span><span>Flow</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">BottomMenuChatFlow</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span> </span><span class="token keyword">var </span>backgroundColor<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.color.ecc_input_background<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>fileButton<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>galleryButton<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>cameraButton<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-683978707%2FConstructors%2F-2054868790" anchor-label="BottomMenuChatFlow" id="-683978707%2FConstructors%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-bottom-menu-chat-flow.html"><span>Bottom</span><wbr></wbr><span>Menu</span><wbr></wbr><span>Chat</span><wbr></wbr><span><span>Flow</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-683978707%2FConstructors%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><span data-unresolved-link="androidx.annotation/ColorRes///PointingToDeclaration/"><span class="token annotation builtin">ColorRes</span></span> </span>backgroundColor<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.color.ecc_input_background<span class="token punctuation">, </span></span><span class="parameter ">fileButton<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">galleryButton<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">cameraButton<span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1442116996%2FProperties%2F-2054868790" anchor-label="backgroundColor" id="-1442116996%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="background-color.html"><span>background</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1442116996%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="background-color.html">backgroundColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1386686094%2FProperties%2F-2054868790" anchor-label="cameraButton" id="-1386686094%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="camera-button.html"><span>camera</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1386686094%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="camera-button.html">cameraButton</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="724356923%2FProperties%2F-2054868790" anchor-label="fileButton" id="724356923%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="file-button.html"><span>file</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="724356923%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="file-button.html">fileButton</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2040434701%2FProperties%2F-2054868790" anchor-label="galleryButton" id="2040434701%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gallery-button.html"><span>gallery</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2040434701%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="gallery-button.html">galleryButton</a><span class="token operator">: </span><a href="../../edna.chatcenter.ui.visual.uiStyle.settings.styles/-text-image-style/index.html">TextImageStyle</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright © 2025 edna. All Rights Reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

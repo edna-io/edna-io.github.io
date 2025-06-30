@@ -34,6 +34,8 @@ $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment///PointingToDec
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/ChatFragment/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/-chat-fragment.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/hideBottomSheet/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/hide-bottom-sheet.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/onBackPressed/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/on-back-pressed.html
+$dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/onCreate/#android.os.Bundle?/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/on-create.html
+$dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/onDestroy/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/on-destroy.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/removeResolveRequest/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/remove-resolve-request.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/removeSurvey/#kotlin.Long/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/remove-survey.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment/setMenuVisibility/#kotlin.Boolean/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/set-menu-visibility.html

@@ -1,0 +1,1776 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Configs/ChatNetworkConfig.swift",
+      "line": 93,
+      "symbol": "ChatNetworkConfig.SSLPinningConfig.allowUntrustedSSLCertificate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Configs/ChatNetworkConfig.swift",
+      "line": 94,
+      "symbol": "ChatNetworkConfig.SSLPinningConfig.trustedCertificates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Configs/ChatTransportConfig.swift",
+      "line": 75,
+      "symbol": "ChatTransportConfig.APIVersion.api17",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Configs/ChatTransportConfig.swift",
+      "line": 76,
+      "symbol": "ChatTransportConfig.APIVersion.api18",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Configs/ChatTransportConfig.swift",
+      "line": 77,
+      "symbol": "ChatTransportConfig.APIVersion.api19",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 12,
+      "symbol": "MigrationServiceLocator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 19,
+      "symbol": "MigrationServiceLocator.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 21,
+      "symbol": "MigrationServiceLocator.logger",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 25,
+      "symbol": "MigrationServiceLocator.logger",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 27,
+      "symbol": "MigrationServiceLocator.style",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 29,
+      "symbol": "MigrationServiceLocator.currentTheme",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
+      "line": 33,
+      "symbol": "MigrationServiceLocator.open(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 16,
+      "symbol": "ChatColors.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 22,
+      "symbol": "ChatColors.main",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 23,
+      "symbol": "ChatColors.secondary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 24,
+      "symbol": "ChatColors.disabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 26,
+      "symbol": "ChatColors.background",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 27,
+      "symbol": "ChatColors.backgroundWhite",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 29,
+      "symbol": "ChatColors.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 30,
+      "symbol": "ChatColors.linkLight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 32,
+      "symbol": "ChatColors.positive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 34,
+      "symbol": "ChatColors.warning",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 36,
+      "symbol": "ChatColors.error",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatColors.swift",
+      "line": 37,
+      "symbol": "ChatColors.errorLight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatButtonColor.swift",
+      "line": 12,
+      "symbol": "ChatButtonColor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatButtonColor.swift",
+      "line": 15,
+      "symbol": "ChatButtonColor.init(normal:highlighted:disabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatButtonColor.swift",
+      "line": 29,
+      "symbol": "ChatButtonColor.normal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatButtonColor.swift",
+      "line": 30,
+      "symbol": "ChatButtonColor.highlighted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatButtonColor.swift",
+      "line": 31,
+      "symbol": "ChatButtonColor.disabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatText.swift",
+      "line": 15,
+      "symbol": "ChatText.init(text:style:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/TextChatStyle.swift",
+      "line": 16,
+      "symbol": "TextChatStyle.init(font:color:backgroundColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/ButtonChatStyle.swift",
+      "line": 12,
+      "symbol": "ButtonChatStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/ButtonChatStyle.swift",
+      "line": 15,
+      "symbol": "ButtonChatStyle.init(color:cornerRadius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/ButtonChatStyle.swift",
+      "line": 28,
+      "symbol": "ButtonChatStyle.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/ButtonChatStyle.swift",
+      "line": 29,
+      "symbol": "ButtonChatStyle.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/IconButtonChatStyle.swift",
+      "line": 12,
+      "symbol": "IconButtonChatStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/IconButtonChatStyle.swift",
+      "line": 15,
+      "symbol": "IconButtonChatStyle.init(icon:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/IconButtonChatStyle.swift",
+      "line": 25,
+      "symbol": "IconButtonChatStyle.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/TextButtonChatStyle.swift",
+      "line": 11,
+      "symbol": "TextButtonChatStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/TextButtonChatStyle.swift",
+      "line": 14,
+      "symbol": "TextButtonChatStyle.init(title:color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/TextButtonChatStyle.swift",
+      "line": 25,
+      "symbol": "TextButtonChatStyle.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ButtonChatStyle/TextButtonChatStyle.swift",
+      "line": 26,
+      "symbol": "TextButtonChatStyle.borderWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ChatStyle.swift",
+      "line": 16,
+      "symbol": "ChatStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ChatStyle.swift",
+      "line": 26,
+      "symbol": "ChatStyle.init(images:colors:typography:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ErrorPlaceholderChatStyle.swift",
+      "line": 16,
+      "symbol": "ErrorPlaceholderChatStyle.init(images:colors:typography:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/FileViewerChatStyle.swift",
+      "line": 16,
+      "symbol": "FileViewerChatStyle.init(images:colors:typography:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/InputChatStyle.swift",
+      "line": 16,
+      "symbol": "InputChatStyle.init(text:components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/InputViewStyle.swift",
+      "line": 12,
+      "symbol": "InputViewStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/InputViewStyle.swift",
+      "line": 15,
+      "symbol": "InputViewStyle.init(inputText:components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/LoadingChatStyle.swift",
+      "line": 15,
+      "symbol": "LoadingChatStyle.init(loadingIndicator:components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/LoadingIndicatorChatStyle.swift",
+      "line": 16,
+      "symbol": "LoadingIndicatorChatStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 11,
+      "symbol": "AudioMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 14,
+      "symbol": "AudioMessageStyle.init(progressLabelStyle:timeLabelStyle:alertLabelStyle:textViewStyle:audioPlayer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 32,
+      "symbol": "AudioMessageStyle.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 34,
+      "symbol": "AudioMessageStyle.progressLabelStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 35,
+      "symbol": "AudioMessageStyle.timeLabelStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 36,
+      "symbol": "AudioMessageStyle.alertLabelStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 37,
+      "symbol": "AudioMessageStyle.textViewStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 38,
+      "symbol": "AudioMessageStyle.audioPlayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 40,
+      "symbol": "AudioMessageStyle.voiceMessagePlay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 41,
+      "symbol": "AudioMessageStyle.voiceMessagePause",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 43,
+      "symbol": "AudioMessageStyle.previewVoiceMessagePlayPause",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 44,
+      "symbol": "AudioMessageStyle.previewVoiceMessageBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 46,
+      "symbol": "AudioMessageStyle.previewVoiceMessageProgress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 48,
+      "symbol": "AudioMessageStyle.voiceMessagePlayPause",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioMessageStyle.swift",
+      "line": 49,
+      "symbol": "AudioMessageStyle.voiceMessageProgress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioPlayerChatStyle.swift",
+      "line": 11,
+      "symbol": "AudioPlayerChatStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioPlayerChatStyle.swift",
+      "line": 14,
+      "symbol": "AudioPlayerChatStyle.init(recordButton:playButton:pauseButton:progress:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioPlayerChatStyle.swift",
+      "line": 28,
+      "symbol": "AudioPlayerChatStyle.recordButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioPlayerChatStyle.swift",
+      "line": 29,
+      "symbol": "AudioPlayerChatStyle.playButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioPlayerChatStyle.swift",
+      "line": 30,
+      "symbol": "AudioPlayerChatStyle.pauseButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/AudioPlayerChatStyle.swift",
+      "line": 31,
+      "symbol": "AudioPlayerChatStyle.progress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 11,
+      "symbol": "ChatMessagesStyles",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 14,
+      "symbol": "ChatMessagesStyles.init(components:text:image:audio:file:quote:showAvatar:bubbleColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 51,
+      "symbol": "ChatMessagesStyles.isStroked",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 52,
+      "symbol": "ChatMessagesStyles.bubbleColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 53,
+      "symbol": "ChatMessagesStyles.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 55,
+      "symbol": "ChatMessagesStyles.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 56,
+      "symbol": "ChatMessagesStyles.time",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 57,
+      "symbol": "ChatMessagesStyles.quoteStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 58,
+      "symbol": "ChatMessagesStyles.headerStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 60,
+      "symbol": "ChatMessagesStyles.filledMaskImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 61,
+      "symbol": "ChatMessagesStyles.strokedMaskImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 63,
+      "symbol": "ChatMessagesStyles.filledMaskInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 64,
+      "symbol": "ChatMessagesStyles.strokedMaskInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 65,
+      "symbol": "ChatMessagesStyles.containerRightOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 66,
+      "symbol": "ChatMessagesStyles.containerLeftOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 68,
+      "symbol": "ChatMessagesStyles.avatarSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 69,
+      "symbol": "ChatMessagesStyles.avatarOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 70,
+      "symbol": "ChatMessagesStyles.avatarPlaceholderImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 72,
+      "symbol": "ChatMessagesStyles.failed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 73,
+      "symbol": "ChatMessagesStyles.failedBubbleColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 75,
+      "symbol": "ChatMessagesStyles.deletedText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 76,
+      "symbol": "ChatMessagesStyles.editedStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 78,
+      "symbol": "ChatMessagesStyles.showAvatar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 80,
+      "symbol": "ChatMessagesStyles.timeBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 82,
+      "symbol": "ChatMessagesStyles.textMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 83,
+      "symbol": "ChatMessagesStyles.imageMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 84,
+      "symbol": "ChatMessagesStyles.audioMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 85,
+      "symbol": "ChatMessagesStyles.fileMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 87,
+      "symbol": "ChatMessagesStyles.pendingStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 88,
+      "symbol": "ChatMessagesStyles.deliveredStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 89,
+      "symbol": "ChatMessagesStyles.readStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 91,
+      "symbol": "ChatMessagesStyles.pendingStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 92,
+      "symbol": "ChatMessagesStyles.deliveredStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 93,
+      "symbol": "ChatMessagesStyles.readStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 95,
+      "symbol": "ChatMessagesStyles.mediaPendingStatusColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 96,
+      "symbol": "ChatMessagesStyles.mediaDeliveredStatusColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatMessagesStyles.swift",
+      "line": 97,
+      "symbol": "ChatMessagesStyles.mediaReadStatusColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 12,
+      "symbol": "FileMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 15,
+      "symbol": "FileMessageStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 28,
+      "symbol": "FileMessageStyle.fileSizeLabelStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 29,
+      "symbol": "FileMessageStyle.fileNameLabelStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 31,
+      "symbol": "FileMessageStyle.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 32,
+      "symbol": "FileMessageStyle.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 34,
+      "symbol": "FileMessageStyle.fileIconBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/FileMessageStyle.swift",
+      "line": 35,
+      "symbol": "FileMessageStyle.fileIconTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 12,
+      "symbol": "ImageMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 15,
+      "symbol": "ImageMessageStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 28,
+      "symbol": "ImageMessageStyle.bubbleImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 29,
+      "symbol": "ImageMessageStyle.bubbleImageStroked",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 30,
+      "symbol": "ImageMessageStyle.emptyFillerColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 31,
+      "symbol": "ImageMessageStyle.timeAboveImageColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 32,
+      "symbol": "ImageMessageStyle.timeAboveImageBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 34,
+      "symbol": "ImageMessageStyle.timeBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 36,
+      "symbol": "ImageMessageStyle.time",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 38,
+      "symbol": "ImageMessageStyle.imageEdgesActivated",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 39,
+      "symbol": "ImageMessageStyle.imageEdges",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ImageMessageStyle.swift",
+      "line": 40,
+      "symbol": "ImageMessageStyle.imageCornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 11,
+      "symbol": "SearchMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 14,
+      "symbol": "SearchMessageStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 25,
+      "symbol": "SearchMessageStyle.dateStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 26,
+      "symbol": "SearchMessageStyle.authorStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 27,
+      "symbol": "SearchMessageStyle.fileNameStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 28,
+      "symbol": "SearchMessageStyle.messageStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SearchMessageStyle.swift",
+      "line": 29,
+      "symbol": "SearchMessageStyle.messageMatchStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/OperatorJoinedMessageStyle.swift",
+      "line": 15,
+      "symbol": "OperatorJoinedMessageStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/ScheduleMessageStyle.swift",
+      "line": 16,
+      "symbol": "ScheduleMessageStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/ScheduleMessageStyle.swift",
+      "line": 27,
+      "symbol": "ScheduleMessageStyle.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/ScheduleMessageStyle.swift",
+      "line": 28,
+      "symbol": "ScheduleMessageStyle.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 12,
+      "symbol": "ChatSurveyIcon",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 22,
+      "symbol": "ChatSurveyIcon.empty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 23,
+      "symbol": "ChatSurveyIcon.full",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 36,
+      "symbol": "SurveyMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 68,
+      "symbol": "SurveyMessageStyle.questionTopLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 69,
+      "symbol": "SurveyMessageStyle.questionBottomLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 71,
+      "symbol": "SurveyMessageStyle.voteLikeIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 72,
+      "symbol": "SurveyMessageStyle.voteDislikeIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 73,
+      "symbol": "SurveyMessageStyle.voteStarIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 75,
+      "symbol": "SurveyMessageStyle.emptyStarColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 76,
+      "symbol": "SurveyMessageStyle.fullStarColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 78,
+      "symbol": "SurveyMessageStyle.voteStarEnabledColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 79,
+      "symbol": "SurveyMessageStyle.voteStarDisabledColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 80,
+      "symbol": "SurveyMessageStyle.voteStarCompletedColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 82,
+      "symbol": "SurveyMessageStyle.voteLikeEnabledColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 83,
+      "symbol": "SurveyMessageStyle.voteLikeDisabledColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 84,
+      "symbol": "SurveyMessageStyle.voteLikeCompleted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 86,
+      "symbol": "SurveyMessageStyle.labelOnStar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 87,
+      "symbol": "SurveyMessageStyle.labelUnderStar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 89,
+      "symbol": "SurveyMessageStyle.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 91,
+      "symbol": "SurveyMessageStyle.buttonsText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessages/SurveyMessageStyle.swift",
+      "line": 92,
+      "symbol": "SurveyMessageStyle.buttonsBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessagesConfig.swift",
+      "line": 11,
+      "symbol": "SystemMessagesConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessagesConfig.swift",
+      "line": 14,
+      "symbol": "SystemMessagesConfig.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessagesConfig.swift",
+      "line": 23,
+      "symbol": "SystemMessagesConfig.operatorJoinedStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessagesConfig.swift",
+      "line": 24,
+      "symbol": "SystemMessagesConfig.scheduleStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessagesConfig.swift",
+      "line": 26,
+      "symbol": "SystemMessagesConfig.dateMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/SystemMessagesConfig.swift",
+      "line": 27,
+      "symbol": "SystemMessagesConfig.surveyMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/TextMessageStyle.swift",
+      "line": 10,
+      "symbol": "TextMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/TextMessageStyle.swift",
+      "line": 21,
+      "symbol": "TextMessageStyle.textStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/TextMessageStyle.swift",
+      "line": 29,
+      "symbol": "TextMessageStyle.textViewTextContainerInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/TextMessageStyle.swift",
+      "line": 31,
+      "symbol": "TextMessageStyle.messageBubbleOppositeMargin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/PhotoPickerChatStyle.swift",
+      "line": 16,
+      "symbol": "PhotoPickerChatStyle.init(images:colors:typography:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/PlaceholderChatStyle.swift",
+      "line": 15,
+      "symbol": "PlaceholderChatStyle.init(title:components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ProgressViewStyle.swift",
+      "line": 15,
+      "symbol": "ProgressViewStyle.init(progressColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/QuickReplyStyle.swift",
+      "line": 14,
+      "symbol": "ChatAlignment.center",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/QuickReplyStyle.swift",
+      "line": 15,
+      "symbol": "ChatAlignment.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/QuickReplyStyle.swift",
+      "line": 16,
+      "symbol": "ChatAlignment.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/QuickReplyStyle.swift",
+      "line": 20,
+      "symbol": "QuickReplyStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/QuickReplyStyle.swift",
+      "line": 23,
+      "symbol": "QuickReplyStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/QuoteStyle.swift",
+      "line": 16,
+      "symbol": "QuoteStyle.init(authorLabel:contentLabel:separatorColor:backgroundColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ScrollToUnreadMessageButtonStyle.swift",
+      "line": 15,
+      "symbol": "ScrollToUnreadMessageButtonStyle.init(components:image:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/SearchBarChatStyle.swift",
+      "line": 15,
+      "symbol": "SearchBarChatStyle.init(inputText:components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/ToastAlertStyle.swift",
+      "line": 15,
+      "symbol": "ToastAlertStyle.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents.swift",
+      "line": 15,
+      "symbol": "ChatComponents.init(images:colors:typography:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 16,
+      "symbol": "ChatFlow.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 56,
+      "symbol": "ChatFlow.navigationBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 58,
+      "symbol": "ChatFlow.loadingChat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 60,
+      "symbol": "ChatFlow.typing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 61,
+      "symbol": "ChatFlow.loaderChatController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 62,
+      "symbol": "ChatFlow.chatPlaceholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 115,
+      "symbol": "ChatFlow.inputViewStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 120,
+      "symbol": "ChatFlow.photoPickerStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/ChatFlow.swift",
+      "line": 121,
+      "symbol": "ChatFlow.fileViewerStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 15,
+      "symbol": "SearchFlow.init(components:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 34,
+      "symbol": "SearchFlow.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 36,
+      "symbol": "SearchFlow.navigationBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 37,
+      "symbol": "SearchFlow.searchBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 38,
+      "symbol": "SearchFlow.searchButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 40,
+      "symbol": "SearchFlow.searchMessageStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 42,
+      "symbol": "SearchFlow.imageNotFound",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 43,
+      "symbol": "SearchFlow.titleNotFound",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatFlows/SearchFlow.swift",
+      "line": 45,
+      "symbol": "SearchFlow.searchIconEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 17,
+      "symbol": "ChatImages.searchBarImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 18,
+      "symbol": "ChatImages.backButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 19,
+      "symbol": "ChatImages.nextButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 20,
+      "symbol": "ChatImages.sendButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 21,
+      "symbol": "ChatImages.attachButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 23,
+      "symbol": "ChatImages.emptyChatPlaceholderImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 24,
+      "symbol": "ChatImages.errorChatPlaceholderImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 25,
+      "symbol": "ChatImages.searchNotFoundPlaceholderImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 27,
+      "symbol": "ChatImages.likeEmptyImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 28,
+      "symbol": "ChatImages.likeFullImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 29,
+      "symbol": "ChatImages.dislikeEmptyImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 30,
+      "symbol": "ChatImages.dislikeFullImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 32,
+      "symbol": "ChatImages.starRatingEmptyImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 33,
+      "symbol": "ChatImages.starRatingFullImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 34,
+      "symbol": "ChatImages.scheduleImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 36,
+      "symbol": "ChatImages.messageBubbleFilledMaskImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 37,
+      "symbol": "ChatImages.messageBubbleStrokedMaskImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 39,
+      "symbol": "ChatImages.scrollToTopImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 40,
+      "symbol": "ChatImages.scrollToBottomImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 42,
+      "symbol": "ChatImages.avatarPlaceholderImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 44,
+      "symbol": "ChatImages.closeButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 45,
+      "symbol": "ChatImages.fileImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 47,
+      "symbol": "ChatImages.menuCopyImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 48,
+      "symbol": "ChatImages.menuQuoteImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 51,
+      "symbol": "ChatImages.keyboardShowImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 52,
+      "symbol": "ChatImages.keyboardHideImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 55,
+      "symbol": "ChatImages.voiceButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 56,
+      "symbol": "ChatImages.voiceSendButtonImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 57,
+      "symbol": "ChatImages.voicePlayImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 58,
+      "symbol": "ChatImages.voicePauseImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 61,
+      "symbol": "ChatImages.sentStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 62,
+      "symbol": "ChatImages.pendingStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 63,
+      "symbol": "ChatImages.readStatusImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 65,
+      "symbol": "ChatImages.errorInfoImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 67,
+      "symbol": "ChatImages.alertImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 68,
+      "symbol": "ChatImages.shieldImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatImages.swift",
+      "line": 69,
+      "symbol": "ChatImages.editImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTheme.swift",
+      "line": 45,
+      "symbol": "ChatTheme.debugDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 16,
+      "symbol": "ChatTypography.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 22,
+      "symbol": "ChatTypography.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 23,
+      "symbol": "ChatTypography.largeTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 25,
+      "symbol": "ChatTypography.subtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 27,
+      "symbol": "ChatTypography.heading1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 28,
+      "symbol": "ChatTypography.heading2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 30,
+      "symbol": "ChatTypography.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 31,
+      "symbol": "ChatTypography.bold",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 33,
+      "symbol": "ChatTypography.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 35,
+      "symbol": "ChatTypography.caption",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 36,
+      "symbol": "ChatTypography.caption2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatTypography.swift",
+      "line": 38,
+      "symbol": "ChatTypography.footnote",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sergik/Projects/ChatCenterDemo5x/SDK"
+}

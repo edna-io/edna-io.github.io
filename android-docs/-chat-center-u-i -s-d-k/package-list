@@ -25,6 +25,7 @@ $dokka.location:edna.chatcenter.ui.visual.core/PendingIntentCreator///PointingTo
 $dokka.location:edna.chatcenter.ui.visual.core/PendingIntentCreator/create/#android.content.Context#kotlin.String?/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.core/-pending-intent-creator/create.html
 $dokka.location:edna.chatcenter.ui.visual.extensions////PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.extensions/index.html
 $dokka.location:edna.chatcenter.ui.visual.extensions//isDarkThemeOn/android.content.Context#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.extensions/is-dark-theme-on.html
+$dokka.location:edna.chatcenter.ui.visual.extensions//isScrolling/androidx.recyclerview.widget.RecyclerView#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.extensions/is-scrolling.html
 $dokka.location:edna.chatcenter.ui.visual.fragments////PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/index.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment.Companion///PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/-companion/index.html
 $dokka.location:edna.chatcenter.ui.visual.fragments/ChatFragment.Companion/newInstance/#kotlin.Int/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.fragments/-chat-fragment/-companion/new-instance.html
@@ -700,7 +701,6 @@ $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/errorM
 $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/errorScreenImage/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/error-screen-image.html
 $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/errorScreenMessage/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/error-screen-message.html
 $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/fonts/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/fonts.html
-$dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/fullScreenMode/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/full-screen-mode.html
 $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/highlightingColor/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/highlighting-color.html
 $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/historyNotLoadedToastErrorText/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/history-not-loaded-toast-error-text.html
 $dokka.location:edna.chatcenter.ui.visual.uiStyle.settings.flows/ChatFlow/iconsTintColor/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual.uiStyle.settings.flows/-chat-flow/icons-tint-color.html
@@ -1338,19 +1338,14 @@ $dokka.location:edna.chatcenter.ui.visual/ChatConfig.Companion///PointingToDecla
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig///PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/index.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/ChatConfig/#[Error type: Unresolved type for ChatTransportConfig]#[Error type: Unresolved type for ChatNetworkConfig]#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Int#kotlin.Int#kotlin.Boolean#edna.chatcenter.ui.visual.core.PendingIntentCreator#kotlin.Boolean/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/-chat-config.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/attachmentsEnabled/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/attachments-enabled.html
-$dokka.location:edna.chatcenter.ui.visual/ChatConfig/autoScrollToLatest/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/auto-scroll-to-latest.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/equals/#kotlin.Any?/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/equals.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/hashCode/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/hash-code.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/inputEnabledDuringQuickReplies/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/input-enabled-during-quick-replies.html
-$dokka.location:edna.chatcenter.ui.visual/ChatConfig/linkPreviewEnabled/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/link-preview-enabled.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/notificationImportance/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/notification-importance.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/pendingIntentCreator/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/pending-intent-creator.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/permissionsDescriptionDialogsEnabled/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/permissions-description-dialogs-enabled.html
-$dokka.location:edna.chatcenter.ui.visual/ChatConfig/searchEnabled/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/search-enabled.html
-$dokka.location:edna.chatcenter.ui.visual/ChatConfig/surveyCompletionDelay/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/survey-completion-delay.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/toString/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/to-string.html
 $dokka.location:edna.chatcenter.ui.visual/ChatConfig/userInputEnabled/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/user-input-enabled.html
-$dokka.location:edna.chatcenter.ui.visual/ChatConfig/voiceRecordingEnabled/#/PointingToDeclaration/-chat-center-u-i -s-d-k/edna.chatcenter.ui.visual/-chat-config/voice-recording-enabled.html
 edna.chatcenter.ui.visual
 edna.chatcenter.ui.visual.activities
 edna.chatcenter.ui.visual.core

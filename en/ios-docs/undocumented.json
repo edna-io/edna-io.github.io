@@ -36,6 +36,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Configs/ChatTransportConfig.swift",
+      "line": 78,
+      "symbol": "ChatTransportConfig.APIVersion.api20",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
       "line": 12,
       "symbol": "MigrationServiceLocator",

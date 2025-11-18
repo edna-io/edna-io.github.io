@@ -17,7 +17,7 @@
     <a title="ChatCenterUISDKDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">ChatCenterUI 5.3 Docs</a> (94% documented)</p>
+        <p><a href="../index.html">ChatCenterUI 5.4.0 Docs</a> (94% documented)</p>
         <p class="header-right"><a href="https://github.com/edna-ru/cc-ios-demo"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -139,6 +139,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/NavigationBarStyle.html">NavigationBarStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenGraphViewStyle.html">OpenGraphViewStyle</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/OperatorJoinedChatMessageStyle.html">OperatorJoinedChatMessageStyle</a>
@@ -412,8 +415,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Метод оповещающий о сетевой ошибке в СДК
- <em>Использовать в случае необходимости, например, если нужно обновить токен  авторизации</em></p>
+                        <p>Метод оповещающий о сетевой ошибке в СДК</p>
+
+<p><em>Использовать в случае необходимости, например, если нужно обновить токен  авторизации</em></p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -527,13 +531,78 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12ChatCenterUI0aB13UISDKDelegateP04chatbC00eB06didLogyAA0aB5UISDKC_SStF"></a>
+                    <a name="//apple_ref/swift/Method/chatCenterUI(chatCenter:didLog:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12ChatCenterUI0aB13UISDKDelegateP04chatbC00eB06didLogyAA0aB5UISDKC_SStF">chatCenterUI(chatCenter:<wbr>didLog:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Метод для получения логов из СДК (например, для логирования во внутренней системе аналитики)</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">chatCenterUI</span><span class="p">(</span><span class="nv">chatCenter</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChatCenterUISDK.html">ChatCenterUISDK</a></span><span class="p">,</span> <span class="n">didLog</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chatCenter</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Экземпляр СДК, вызвавший событие</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>event</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Строка с текстом события</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="https://edna.ru" target="_blank" rel="external noopener">edna</a>. All rights reserved. (Last updated: 2025-10-28)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>&copy; 2025 <a class="link" href="https://edna.ru" target="_blank" rel="external noopener">edna</a>. All rights reserved. (Last updated: 2025-11-18)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>

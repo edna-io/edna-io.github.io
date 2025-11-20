@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../../index.html">
+                            ChatCenterUI SDK
+                    </a>
+            </div>
+            <div class="library-version">
+5.14.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":chatcenterui:dokkaHtml/release">ChatCenterUI SDK</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="ChatCenterUI SDK::edna.chatcenter.ui.visual.openGraph/OpenGraphParser.Builder///PointingToDeclaration//-2054868790">
+  <div class="breadcrumbs"><a href="../../../../index.html">ChatCenterUI SDK</a><span class="delimiter">/</span><a href="../../index.html">edna.chatcenter.ui.visual.openGraph</a><span class="delimiter">/</span><a href="../index.html">OpenGraphParser</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>listener<span class="token operator">: </span><a href="../../-open-graph-callback/index.html">OpenGraphCallback</a></span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="2082587159%2FConstructors%2F-2054868790" anchor-label="Builder" id="2082587159%2FConstructors%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-builder.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2082587159%2FConstructors%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">listener<span class="token operator">: </span><a href="../../-open-graph-callback/index.html">OpenGraphCallback</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1457489165%2FProperties%2F-2054868790" anchor-label="cacheProvider" id="1457489165%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="cache-provider.html"><span>cache</span><wbr></wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1457489165%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="cache-provider.html">cacheProvider</a><span class="token operator">: </span><a href="../../-cache-provider/index.html">CacheProvider</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1418401837%2FProperties%2F-2054868790" anchor-label="jsoupProxy" id="1418401837%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="jsoup-proxy.html"><span>jsoup</span><wbr></wbr><span><span>Proxy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1418401837%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="jsoup-proxy.html">jsoupProxy</a><span class="token operator">: </span><a href="../../-jsoup-proxy/index.html">JsoupProxy</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1855876646%2FProperties%2F-2054868790" anchor-label="listener" id="1855876646%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="listener.html"><span><span>listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1855876646%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="listener.html">listener</a><span class="token operator">: </span><a href="../../-open-graph-callback/index.html">OpenGraphCallback</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1828774297%2FProperties%2F-2054868790" anchor-label="maxBodySize" id="1828774297%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="max-body-size.html"><span>max</span><wbr></wbr><span>Body</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1828774297%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="max-body-size.html">maxBodySize</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="889271254%2FProperties%2F-2054868790" anchor-label="showNullOnEmpty" id="889271254%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-null-on-empty.html"><span>show</span><wbr></wbr><span>Null</span><wbr></wbr><span>On</span><wbr></wbr><span><span>Empty</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="889271254%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="show-null-on-empty.html">showNullOnEmpty</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1934864065%2FProperties%2F-2054868790" anchor-label="timeout" id="-1934864065%2FProperties%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="timeout.html"><span><span>timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1934864065%2FProperties%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="timeout.html">timeout</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1745700242%2FFunctions%2F-2054868790" anchor-label="build" id="1745700242%2FFunctions%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1745700242%2FFunctions%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../index.html">OpenGraphParser</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-989708123%2FFunctions%2F-2054868790" anchor-label="cacheProvider" id="-989708123%2FFunctions%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="cache-provider.html"><span>cache</span><wbr></wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-989708123%2FFunctions%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="cache-provider.html"><span class="token function">cacheProvider</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cacheProvider<span class="token operator">: </span><a href="../../-cache-provider/index.html">CacheProvider</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">OpenGraphParser.Builder</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-761334051%2FFunctions%2F-2054868790" anchor-label="jsoupProxy" id="-761334051%2FFunctions%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="jsoup-proxy.html"><span>jsoup</span><wbr></wbr><span><span>Proxy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-761334051%2FFunctions%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="jsoup-proxy.html"><span class="token function">jsoupProxy</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">jsoupProxy<span class="token operator">: </span><a href="../../-jsoup-proxy/index.html">JsoupProxy</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">OpenGraphParser.Builder</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-370118665%2FFunctions%2F-2054868790" anchor-label="maxBodySize" id="-370118665%2FFunctions%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="max-body-size.html"><span>max</span><wbr></wbr><span>Body</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-370118665%2FFunctions%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="max-body-size.html"><span class="token function">maxBodySize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">maxBodySize<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">OpenGraphParser.Builder</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1455598747%2FFunctions%2F-2054868790" anchor-label="showNullOnEmpty" id="1455598747%2FFunctions%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-null-on-empty.html"><span>show</span><wbr></wbr><span>Null</span><wbr></wbr><span>On</span><wbr></wbr><span><span>Empty</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1455598747%2FFunctions%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show-null-on-empty.html"><span class="token function">showNullOnEmpty</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">showNullOnEmpty<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">OpenGraphParser.Builder</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1705576477%2FFunctions%2F-2054868790" anchor-label="timeout" id="1705576477%2FFunctions%2F-2054868790" data-filterable-set=":chatcenterui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":chatcenterui:dokkaHtml/release" data-filterable-set=":chatcenterui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="timeout.html"><span><span>timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1705576477%2FFunctions%2F-2054868790"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":chatcenterui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="timeout.html"><span class="token function">timeout</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">timeout<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">OpenGraphParser.Builder</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright © 2025 edna. All Rights Reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

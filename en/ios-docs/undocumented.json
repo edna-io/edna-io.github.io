@@ -58,35 +58,28 @@
     },
     {
       "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
-      "line": 21,
+      "line": 24,
       "symbol": "MigrationServiceLocator.logger",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
-      "line": 25,
+      "line": 28,
       "symbol": "MigrationServiceLocator.logger",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
-      "line": 27,
-      "symbol": "MigrationServiceLocator.style",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
-      "line": 29,
+      "line": 30,
       "symbol": "MigrationServiceLocator.currentTheme",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/MigrationServiceLocator.swift",
-      "line": 33,
+      "line": 34,
       "symbol": "MigrationServiceLocator.open(url:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -95,6 +88,13 @@
       "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/AudioPlayerStyle.swift",
       "line": 11,
       "symbol": "AudioPlayerChatStyle",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/BaseComponents/ChatMenuStyle.swift",
+      "line": 12,
+      "symbol": "PhotoPickerStyle",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
@@ -187,6 +187,20 @@
       "line": 11,
       "symbol": "TextMessageStyle",
       "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents/MessagesStyle/ChatSystemMessagesStyles.swift",
+      "line": 11,
+      "symbol": "SystemMessagesStyles",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergik/Projects/ChatCenterDemo5x/SDK/ChatCenterUI/API/Theme/ChatComponents.swift",
+      "line": 53,
+      "symbol": "ChatComponents.inputViewStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }
   ],

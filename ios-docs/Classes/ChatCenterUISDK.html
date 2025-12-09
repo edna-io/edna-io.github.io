@@ -17,7 +17,7 @@
     <a title="ChatCenterUISDK Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">ChatCenterUI 5.4.0 Docs</a> (94% documented)</p>
+        <p><a href="../index.html">ChatCenterUI 5.5.0 Docs</a> (94% documented)</p>
         <p class="header-right"><a href="https://github.com/edna-ru/cc-ios-demo"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -90,6 +90,9 @@
                 <a href="../Classes/ChatLoadingStyle.html">ChatLoadingStyle</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/ChatMenuStyle.html">ChatMenuStyle</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/ChatMessageStyle.html">ChatMessageStyle</a>
               </li>
               <li class="nav-group-task">
@@ -108,6 +111,9 @@
                 <a href="../Classes/ChatSurveyIcon.html">ChatSurveyIcon</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/ChatSystemMessagesStyles.html">ChatSystemMessagesStyles</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/ChatTextStyle.html">ChatTextStyle</a>
               </li>
               <li class="nav-group-task">
@@ -121,9 +127,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/FileChatMessageStyle.html">FileChatMessageStyle</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/FileViewerStyle.html">FileViewerStyle</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/IconButtonStyle.html">IconButtonStyle</a>
@@ -145,9 +148,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/OperatorJoinedChatMessageStyle.html">OperatorJoinedChatMessageStyle</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/PhotoPickerStyle.html">PhotoPickerStyle</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ProgressViewStyle.html">ProgressViewStyle</a>
@@ -178,9 +178,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/SurveyChatMessageStyle.html">SurveyChatMessageStyle</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SystemMessagesStyles.html">SystemMessagesStyles</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TextButtonStyle.html">TextButtonStyle</a>
@@ -302,10 +299,16 @@
                 <a href="../Typealiases.html#/s:12ChatCenterUI14InputViewStylea">InputViewStyle</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12ChatCenterUI16PhotoPickerStylea">PhotoPickerStyle</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:12ChatCenterUI011PlaceholderA5Stylea">PlaceholderChatStyle</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:12ChatCenterUI09SearchBarA5Stylea">SearchBarChatStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12ChatCenterUI20SystemMessagesStylesa">SystemMessagesStyles</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:12ChatCenterUI04TextA5Stylea">TextChatStyle</a>
@@ -575,7 +578,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Настройки темной темы</p>
+                        <p>Настройки темной темы
+<em>Если не заданы, то будут браться от светлой</em></p>
 
                       </div>
                       <div class="declaration">
@@ -815,9 +819,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:12ChatCenterUI0aB5UISDKC03getA08userInfoSo16UIViewControllerCSDySSypGSg_tAA0aB7UIErrorOYKF"></a>
+                    <a name="/s:12ChatCenterUI0aB5UISDKC03getA08userInfoSo16UIViewControllerCSDys11AnyHashableVypGSg_tAA0aB7UIErrorOYKF"></a>
                     <a name="//apple_ref/swift/Method/getChat(userInfo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:12ChatCenterUI0aB5UISDKC03getA08userInfoSo16UIViewControllerCSDySSypGSg_tAA0aB7UIErrorOYKF">getChat(userInfo:<wbr>)</a>
+                    <a class="token" href="#/s:12ChatCenterUI0aB5UISDKC03getA08userInfoSo16UIViewControllerCSDys11AnyHashableVypGSg_tAA0aB7UIErrorOYKF">getChat(userInfo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -832,7 +836,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getChat</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="nf">throws</span><span class="p">(</span><span class="kt"><a href="../Enums/ChatCenterUIError.html">ChatCenterUIError</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIViewController</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getChat</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="nf">throws</span><span class="p">(</span><span class="kt"><a href="../Enums/ChatCenterUIError.html">ChatCenterUIError</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIViewController</span></code></pre>
 
                         </div>
                       </div>
@@ -913,9 +917,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:12ChatCenterUI0aB5UISDKC18handleNotification8userInfoySDySSypG_tAA0aB7UIErrorOYKF"></a>
+                    <a name="/s:12ChatCenterUI0aB5UISDKC18handleNotification8userInfoySDys11AnyHashableVypG_tAA0aB7UIErrorOYKF"></a>
                     <a name="//apple_ref/swift/Method/handleNotification(userInfo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:12ChatCenterUI0aB5UISDKC18handleNotification8userInfoySDySSypG_tAA0aB7UIErrorOYKF">handleNotification(userInfo:<wbr>)</a>
+                    <a class="token" href="#/s:12ChatCenterUI0aB5UISDKC18handleNotification8userInfoySDys11AnyHashableVypG_tAA0aB7UIErrorOYKF">handleNotification(userInfo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -930,7 +934,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="nf">throws</span><span class="p">(</span><span class="kt"><a href="../Enums/ChatCenterUIError.html">ChatCenterUIError</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="nf">throws</span><span class="p">(</span><span class="kt"><a href="../Enums/ChatCenterUIError.html">ChatCenterUIError</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -961,7 +965,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="https://edna.ru" target="_blank" rel="external noopener">edna</a>. All rights reserved. (Last updated: 2025-11-18)</p>
+          <p>&copy; 2025 <a class="link" href="https://edna.ru" target="_blank" rel="external noopener">edna</a>. All rights reserved. (Last updated: 2025-12-09)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
